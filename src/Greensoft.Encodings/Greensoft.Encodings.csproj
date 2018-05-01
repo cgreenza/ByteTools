@@ -5,13 +5,15 @@
     <Authors>Christopher Green</Authors>
     <Company />
     <Product />
-    <Version>0.1.0</Version>
-    <Description>A library to convert between byte arrays and strings using hex (base 16) encoding i.e. each byte is represented by 2 hex characters.</Description>
-    <Copyright>Copyright ©  Christopher Green 2018</Copyright>
+    <Version>0.1.1</Version>
+    <Description>A library to convert between byte arrays and strings using hex (base 16) encoding i.e. each byte is represented by 2 hex characters. The implementation makes use of an efficient table lookup that is approx 16x faster than using System.BitConverter.</Description>
+    <Copyright>Copyright © Christopher Green 2018</Copyright>
     <PackageTags>hex encoding</PackageTags>
-    <AssemblyVersion>0.0.1.0</AssemblyVersion>
-    <FileVersion>0.0.0.0</FileVersion>
+    <AssemblyVersion>0.0.1.1</AssemblyVersion>
+    <FileVersion>0.0.1.1</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/cgreenza/Greensoft.Encodings</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cgreenza/Greensoft.Encodings</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
