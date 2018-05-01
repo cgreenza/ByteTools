@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greensoft.Encodings", "Greensoft.Encodings\Greensoft.Encodings.csproj", "{EE40C9C8-548F-4AA3-9F75-AE2DC0F88F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greensoft.Encodings.Test", "Greensoft.Encodings.Test\Greensoft.Encodings.Test.csproj", "{61F06BD6-FE26-4F7E-A7FA-A2C711F8C594}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE40C9C8-548F-4AA3-9F75-AE2DC0F88F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE40C9C8-548F-4AA3-9F75-AE2DC0F88F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE40C9C8-548F-4AA3-9F75-AE2DC0F88F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE40C9C8-548F-4AA3-9F75-AE2DC0F88F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61F06BD6-FE26-4F7E-A7FA-A2C711F8C594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F06BD6-FE26-4F7E-A7FA-A2C711F8C594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F06BD6-FE26-4F7E-A7FA-A2C711F8C594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F06BD6-FE26-4F7E-A7FA-A2C711F8C594}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58EA0387-658B-438E-8847-F0A617AC199A}
+	EndGlobalSection
+EndGlobal
