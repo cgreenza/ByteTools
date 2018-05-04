@@ -1,7 +1,8 @@
 ﻿using System;
+using ByteTools.Encodings;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Greensoft.Encodings.Test
+namespace ByteTools.Test
 {
 
     [TestClass]

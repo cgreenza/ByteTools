@@ -7,8 +7,8 @@
     <ProjectGuid>{61F06BD6-FE26-4F7E-A7FA-A2C711F8C594}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Greensoft.Encodings.Test</RootNamespace>
-    <AssemblyName>Greensoft.Encodings.Test</AssemblyName>
+    <RootNamespace>ByteTools.Test</RootNamespace>
+    <AssemblyName>ByteTools.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -54,9 +54,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Greensoft.Encodings\Greensoft.Encodings.csproj">
+    <ProjectReference Include="..\ByteTools\ByteTools.csproj">
       <Project>{ee40c9c8-548f-4aa3-9f75-ae2dc0f88f6d}</Project>
-      <Name>Greensoft.Encodings</Name>
+      <Name>ByteTools</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

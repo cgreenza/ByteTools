@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Greensoft.Encodings
+namespace ByteTools.Encodings
 {
     public static class HexEncoding
     {
