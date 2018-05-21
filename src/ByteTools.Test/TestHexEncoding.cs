@@ -1,5 +1,5 @@
 ﻿using System;
-using ByteTools.Encodings;
+using Greensoft.ByteTools.Encodings;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ByteTools.Test

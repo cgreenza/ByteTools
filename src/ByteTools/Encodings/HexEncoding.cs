@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ByteTools.Encodings
+namespace Greensoft.ByteTools.Encodings
 {
     public static class HexEncoding
     {
@@ -42,8 +42,17 @@ namespace ByteTools.Encodings
             0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF
         }; // invalid hex chars are represented using 0xFFFF so as to result in an OverflowException when cast to byte
 
+        /// <summary>
+        /// Converts the numeric value of each element of a specified array of bytes to its equivalent hexadecimal string representation.
+        /// </summary>
+        /// <param name="sourceBytes">An array of bytes.</param>
+        /// <returns>A string of hexadecimal pairs, where each pair represents the corresponding element in value</returns>
+        /// <exception cref="System.ArgumentNullException">sourceBytes is null</exception>
         public static string GetString(byte[] sourceBytes)
         {
+            if (sourceBytes == null)
+                throw new ArgumentNullException(nameof(sourceBytes));
+
             var outputChars = new char[sourceBytes.Length * 2];
 
             for (int i = 0; i < sourceBytes.Length; i++)
@@ -56,8 +65,18 @@ namespace ByteTools.Encodings
             return new string(outputChars);
         }
 
+        /// <summary>
+        /// Converts a string of hexadecimal character pairs into an equivalent byte array
+        /// </summary>
+        /// <param name="sourceString">A string of hexadecimal character pairs</param>
+        /// <returns>A byte array, where each byte represents the corresponding character pair in value</returns>
+        /// <exception cref="System.ArgumentNullException">sourceString is null</exception>
+        /// <exception cref="System.FormatException">sourceString contains incomplete hex pairs or invalid hex characters</exception>
         public static byte[] GetBytes(string sourceString)
         {
+            if (sourceString == null)
+                throw new ArgumentNullException(nameof(sourceString));
+
             if (sourceString.Length % 2 != 0)
                 throw new FormatException("The input is not a valid hex string as it does not contain an even number of characters");
 
